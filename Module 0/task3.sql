@@ -1,0 +1,1 @@
+SELECT 10/3, 10%3; -- INTEGER division and modulo (remainder)
