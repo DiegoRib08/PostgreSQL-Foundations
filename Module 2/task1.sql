@@ -4,7 +4,7 @@ CREATE TABLE courses (
     course_name         TEXT        NOT NULL,
     credit_hours        INTEGER     CHECK (credit_hours >= 0),
     semester            TEXT,
-    percentage_grade    REAL,
+    percentage_grade    REAL        CHECK (percentage_grade >= 0),
     is_planned          BOOLEAN     NOT NULL    DEFAULT TRUE,
     is_in_progress      BOOLEAN     NOT NULL,
     is_completed        BOOLEAN     NOT NULL
