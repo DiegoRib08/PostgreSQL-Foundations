@@ -1,7 +1,7 @@
 INSERT INTO courses (course_code, course_name, credit_hours, semester, is_in_progress, is_completed) VALUES
     ('SPN-050', 'Proficiency Spanish', 0, 'Fall 2026', FALSE, TRUE),
     ('PSY-110S-02', 'The Psychological Sciences', 4, 'Fall 2026', FALSE, FALSE),
-    ('CSC-120-01', 'The Psychological Sciences', 4, 'Fall 2026', FALSE, FALSE),
+    ('CSC-120-01', 'Programming Problem Solving 1', 4, 'Fall 2026', FALSE, FALSE),
     ('MTH-123-03', 'Elementary Statistics', 3, 'Fall 2026', FALSE, FALSE),
     ('ART-100A-01', 'Introduction to Art', 4, 'Fall 2026', FALSE, FALSE),
     ('FYS-100-00', 'Pick your FYS at Preview', 4, 'Fall 2026', FALSE, FALSE);
