@@ -9,3 +9,10 @@ CREATE TABLE courses (
     is_in_progress      BOOLEAN     NOT NULL,
     is_completed        BOOLEAN     NOT NULL
 );
+/*
+Table after initial creation:
+┌────┬─────────────┬─────────────┬──────────────┬──────────┬──────────────────┬────────────┬────────────────┬──────────────┐
+│ id │ course_code │ course_name │ credit_hours │ semester │ percentage_grade │ is_planned │ is_in_progress │ is_completed │
+├────┼─────────────┼─────────────┼──────────────┼──────────┼──────────────────┼────────────┼────────────────┼──────────────┤
+└────┴─────────────┴─────────────┴──────────────┴──────────┴──────────────────┴────────────┴────────────────┴──────────────┘
+*/
