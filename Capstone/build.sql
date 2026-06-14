@@ -12,7 +12,7 @@ CREATE TABLE courses (
 );
 
 -- Create indexes for frequently filtered columns
-CREATE INDEX idx_courses_percentage_grade ON courses(percentage_grade);
+CREATE INDEX idx_courses_percentage_grade ON courses (percentage_grade);
 
 -- Insert rows
 INSERT INTO courses (
